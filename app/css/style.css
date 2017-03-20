@@ -1,0 +1,72 @@
+li{
+  list-style: none;
+  display: inline;
+}
+
+/*containers*/
+
+.about{
+  float: right;
+  max-width: 250px;
+  border: 1px dotted red;
+  padding: 20px;
+    height: 500px;
+}
+
+.frame{
+  height: 600px;
+  position: relative;
+  border: 1px red solid;
+}
+
+.marquee {
+  position: absolute;
+  bottom: 0;
+  border: 1px dotted blue;
+}
+
+.work{
+  border: 1px solid black;
+}
+
+
+
+.about img{
+  float: left;
+  margin: 10px;
+
+
+}
+
+.about div ul li{
+  display: block;
+}
+
+.about div ul li a{
+  text-decoration: none;
+}
+
+.work ul li {
+  /*padding: 20px;*/
+}
+
+.marquee h1{
+  text-align: center;
+}
+
+.marquee h4{
+  text-align: right;
+}
+
+
+/*images*/
+.myPhoto{
+  height: 100px;
+  width: auto;
+}
+
+.examples{
+  height: 150px;
+  width: auto;
+  border: 1px solid grey;
+}
