@@ -1,9 +1,16 @@
 body{
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
-
+.moon{
+  text-decoration: none;
+  padding-right: 1%;
+}
+/*img{
+  border: 2px solid black;
+}*/
 .header {
-  border: 1px solid #03a9f4;;
+  border: 2px solid #03a9f4;
   color: white;
   max-width: 100%;
   width:70%;
@@ -21,71 +28,87 @@ body{
 .nav{
       width: auto;
       height: auto;
-      background: red;
+      background: white;
+      border: 1px solid white;
+
 }
-.nav h2{
+.nav h3{
   text-align: right;
-  border: 1px solid #03a9f4;;
+  /*border: 1px solid #03a9f4;;*/
+    color: #03a9f4;
 }
 .navItem{
   padding-right: 5%;
   text-decoration: none;
+}
 
+.nav h3 a {
+      color: #03a9f4;
 }
 
 h1, h5, h2, li{
   text-align: center;
   letter-spacing: .5px;
 }
-
+h1, h5, .navItem{
+  font-weight: 300;
+}
 .about{
     letter-spacing: .5px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
-    padding-bottom: 2%;
-      font-weight: 300;
+    font-weight: 300;
 }
 
 
 .contentContainer{
   background: #03a9f4;
-  border: 2px solid white;
+  border: 2px solid #03a9f4;
+  /*border: 1px solid white;*/
   color: white;
   width:70%;
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  padding-top: 2%;
 }
 
+.sampleContainer{
+/*margin: auto;*/
+/*margin-top: 5px;
+margin-bottom: 5px;*/
+/*border: 1px solid white;*/
 
+}
 .examples{
   height: auto;
   width:50%;
   margin: 0 auto;
   display: block;
-  padding-top: 5px;
-    border: 1px solid #03a9f4;;
-
+  padding: 5px;
+  background: white;
 }
 
 .contentTitle{
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    background: red;
-
+  width: auto;
+  margin: 0 auto;
 }
 
- .workContainer{
+.contentTitle h2{
+  background: #9c2778;
+  font-weight: 400;
+}
+
+ .sampleSites{
   color: white;
-  padding-top: 10px;
+  padding: 5px;
+  border: 2px solid white;
   width: 40%;
   margin: 0 auto;
   font-weight: 300;
-  margin-top: 5%
-
  }
+
 .footer{
   width:70%;
   max-width: 100%;
@@ -94,6 +117,9 @@ h1, h5, h2, li{
   background: #03a9f4;
   text-align: center;
   color: white;
+  border-left: 2px solid #03a9f4;
+  border-right: 2px solid #03a9f4;
+  border-top: 2px solid white;
 }
 
 @media (max-width: 768px){
@@ -110,7 +136,7 @@ h1, h5, h2, li{
   max-width: 100%;
 }
 
-.workContainer{
+.sampleSites{
   /*font-weight: normal;*/
   font-size: 1em;
   font-weight: 300;
@@ -125,12 +151,12 @@ h1, h5, h2, li{
 }
 
 .about{
-    letter-spacing: .5px;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-weight: 300;
+  letter-spacing: .5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: 300;
 
 }
 }
