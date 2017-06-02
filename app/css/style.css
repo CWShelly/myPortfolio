@@ -103,7 +103,7 @@ h1, h5, h2, li{
   color: white;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
 
 .examples{
   width: 80%;
