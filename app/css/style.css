@@ -128,35 +128,34 @@ margin-bottom: 5px;*/
   }
 
 
-.nav{
-  font-size: .75em;
-}
-.examples{
-  width: 80%;
-  max-width: 100%;
-}
-
-.sampleSites{
-  /*font-weight: normal;*/
-  font-size: 1em;
-  font-weight: 300;
-}
-
-.header, .contentContainer, .footer{
-  width: 80%;
-  max-width: 100%;
-}
-.contentTitle{
+  .nav{
     font-size: .75em;
-}
+  }
+  .examples{
+    width: 80%;
+    max-width: 100%;
+  }
 
-.about{
-  letter-spacing: .5px;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  font-weight: 300;
+  .sampleSites{
+    /*font-weight: normal;*/
+    font-size: 1em;
+    font-weight: 300;
+  }
 
-}
+  .header, .contentContainer, .footer{
+    width: 90%;
+    max-width: 100%;
+  }
+  .contentTitle{
+    font-size: .75em;
+  }
+
+  .about{
+    letter-spacing: .5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 300;
+  }
 }
