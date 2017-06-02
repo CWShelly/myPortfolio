@@ -14,7 +14,6 @@ body{
   background: #03a9f4;
     padding-bottom: 2%
     padding-top: 2%;
-
 }
 
 .header a{
@@ -53,30 +52,8 @@ h1, h5, h2, li{
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-
 }
 
-
-ul{
-  max-width: 100%;
-  width:70%;
-  /*background: black;*/
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-
-li{
-  color:white;
-  display: inline;
-  list-style: none;
-  /*padding-right: 20%;*/
-}
-
-li a{
-  color: white;
-  text-decoration: none;
-}
 
 .contentContainer{
   background: #03a9f4;
@@ -86,7 +63,6 @@ li a{
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-  /*margin-top: 5%;*/
 }
 
 
@@ -125,4 +101,21 @@ li a{
   background: #03a9f4;
   text-align: center;
   color: white;
+}
+
+@media screen and (max-width: 768px){
+
+.examples{
+  width: 80%;
+  max-width: 100%;
+}
+
+.workContainer{
+  font-weight: normal;
+}
+
+.header, .contentContainer, .footer{
+  width: 80%;
+  max-width: 100%;
+}
 }
