@@ -102,8 +102,10 @@ margin-bottom: 5px;*/
 
 .contentTitle h2{
   /*background: #9c2778;*/
-  background: #c61aff;
+  /*background: #c61aff;*/
+  background: white;
   font-weight: 400;
+  color: #03a9f4
 }
 
  .sampleSites{
