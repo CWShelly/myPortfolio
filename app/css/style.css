@@ -153,6 +153,9 @@ h1, h5, .navItem{
     width: 80%;
     max-width: 100%;
   }
+  .sampleContainer{
+    padding-top: 10%;
+  }
 
   .sampleSites{
     font-size: 1em;
@@ -170,7 +173,7 @@ h1, h5, .navItem{
   color: white;
   position: absolute;
   right: 6%;
-  top: 7%;
+  top: 3%;
   display: block;
   /*font-size: 2.2em;*/
 }
@@ -179,13 +182,14 @@ nav:hover ul{
    display: block;
    position: absolute;
    right: 5%;
-   top: 4%;
+   top: 3%;
    z-index: 99;
    background: white;
    height: auto;
    padding: 3% 5%;
    width: auto;
    border: 1px solid blue;
+   box-shadow: 10px 10px 5px 5px grey;
 
 }
 
@@ -204,6 +208,8 @@ nav ul {
 
   .contentTitle{
     font-size: .75em;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 
   .about{
