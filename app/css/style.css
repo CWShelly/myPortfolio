@@ -7,15 +7,7 @@ body{
   padding-right: 1%;
 }
 
-.icon-menu{
- /*color: orange;
- float: right;
- font-size: 5.2em;
- margin-right: 3%;*/
-}
-/*img{
-  border: 2px solid black;
-}*/
+
 .header {
   border: 2px solid #03a9f4;
   color: white;
@@ -46,26 +38,12 @@ nav{
 nav ul li{
     display: inline;
     padding-left: 15%;
-    /*text-align: center;*/
     position: relative;
-    /*left: 25%;*/
-    /*margin: 0 auto;*/
 }
 nav ul li .moon{
   color: #03a9f4;
   list-style: none;
-
-
 }
-/*.nav h3{
-  text-align: center;
-
-    color: #03a9f4;
-}*/
-/*.navItem{
-  padding-right: 1%;
-  text-decoration: none;
-}*/
 
 .nav h3 a {
       color: #03a9f4;
@@ -90,7 +68,6 @@ h1, h5, .navItem{
 .contentContainer{
   background: #03a9f4;
   border: 2px solid #03a9f4;
-  /*border: 1px solid white;*/
   color: white;
   width:70%;
   max-width: 100%;
@@ -98,7 +75,6 @@ h1, h5, .navItem{
   margin: 0 auto;
   padding-top: 2%;
 }
-
 
 .examples{
   height: auto;
@@ -115,8 +91,6 @@ h1, h5, .navItem{
 }
 
 .contentTitle h2{
-  /*background: #9c2778;*/
-  /*background: #c61aff;*/
   background: white;
   font-weight: 400;
   color: #03a9f4
@@ -167,18 +141,21 @@ h1, h5, .navItem{
     max-width: 100%;
   }
 
-
-
-.exp-nav .icon-menu{
+.exp-nav .icon-menu, .close{
   color: white;
   position: absolute;
   right: 6%;
   top: 3%;
   display: block;
-  /*font-size: 2.2em;*/
 }
 
-nav:hover ul{
+.close{
+  font-size: 1em;
+}
+
+
+
+nav ul{
    display: block;
    position: absolute;
    right: 5%;
@@ -190,7 +167,6 @@ nav:hover ul{
    width: auto;
    border: 1px solid blue;
    box-shadow: 10px 10px 5px 5px grey;
-
 }
 
 .exp-nav li{
@@ -202,9 +178,9 @@ nav:hover ul{
 .exp-nav li:hover a{
   border-bottom: 2px solid #03a9f4;
 }
-nav ul {
+/*nav ul {
   display: none;
-}
+}*/
 
   .contentTitle{
     font-size: .75em;
